@@ -1,0 +1,61 @@
+:root {
+    --black: #222;
+    --white: #f2f2f2;
+    --max-width: 42rem;
+    --font: sans-serif;
+
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--white);
+    color: var(--black);
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.33;
+}
+
+main {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+main section ,
+h1 {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    padding-top: 1rem;
+    border-top: 2px solid green;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+figure {
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption {
+    display: table;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
